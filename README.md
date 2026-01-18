@@ -53,7 +53,7 @@ A proposta é permitir que clientes solicitem horários pelo celular, o barbeiro
 - (Opcional) Firebase Cloud Messaging (push)
 
 ## 📦 Estrutura sugerida do repositório
-/
+
 backend/ # Spring Boot API
 mobile/ # Android app (cliente + barbeiro/admin)
 docs/ # diagramas, decisões de arquitetura, guias
@@ -78,6 +78,5 @@ docker/ # compose, scripts auxiliares
 - [ ] App Cliente (fluxo completo)
 - [ ] App Barbeiro/Admin (aprovação + calendário)
 
-## 📄 Licença
-Definir (ex.: MIT) quando o projeto estabilizar.
+
 
