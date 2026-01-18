@@ -53,3 +53,31 @@ A proposta é permitir que clientes solicitem horários pelo celular, o barbeiro
 - (Opcional) Firebase Cloud Messaging (push)
 
 ## 📦 Estrutura sugerida do repositório
+/
+backend/ # Spring Boot API
+mobile/ # Android app (cliente + barbeiro/admin)
+docs/ # diagramas, decisões de arquitetura, guias
+docker/ # compose, scripts auxiliares
+
+
+## 🚀 Como rodar localmente (planejado)
+### Backend + Banco
+1. Subir Postgres via Docker Compose
+2. Subir a API (Spring Boot)
+3. Acessar Swagger em: `http://localhost:8080/swagger-ui.html`
+
+> Este guia será atualizado conforme o projeto evoluir.
+
+## 🗺️ Roadmap (alto nível)
+- [ ] Base do backend + migrations + Swagger
+- [ ] Auth (JWT) + perfis CLIENT/BARBER
+- [ ] Serviços (corte, preço, duração)
+- [ ] Disponibilidade (horário/folgas) + slots de 1h
+- [ ] Agendamentos (solicitar/aprovar/recusar) + bloqueio de horário
+- [ ] Pagamento do sinal (50%) + webhook
+- [ ] App Cliente (fluxo completo)
+- [ ] App Barbeiro/Admin (aprovação + calendário)
+
+## 📄 Licença
+Definir (ex.: MIT) quando o projeto estabilizar.
+
